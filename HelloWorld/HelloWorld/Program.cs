@@ -11,6 +11,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+            Console.WriteLine(3+3);
 
             byte number = 25;
             int count = 15;
@@ -18,6 +19,7 @@ namespace HelloWorld
             char character = 'A';
             string firstName = "Amiriddin";
             bool isEating = false;
+
             Console.WriteLine(number);
             Console.WriteLine(count);
             Console.WriteLine(totalPrice);
