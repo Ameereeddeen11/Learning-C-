@@ -26,6 +26,34 @@ namespace HelloWorld
             Console.WriteLine(character);
             Console.WriteLine(firstName);
             Console.WriteLine(isEating);
+
+            double a = 0, b = 1, c;
+            Console.WriteLine("Kolik cisel chcete: ");
+            c = Convert.ToDouble(Console.ReadLine());
+            a++;
+            for (int i = 1; i < c; i++)
+            {
+                Console.Write(i);
+                a = a + i;
+                b = b * i;
+            }
+            for (int i = 0; i < c; i++)
+            {
+                Console.Write(i + ", ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("Scitani vsech cisel je " + a);
+            Console.WriteLine("Soucet vsech cisel je " + b);
+            Console.ReadLine();
+
+
+            double x = 1;
+            do
+            {
+                Console.Write(x + ", ");
+                x++;
+            }while (x != 11);
+            Console.ReadLine() ;
         }
     }
 }
