@@ -59,6 +59,8 @@ namespace pole
             Console.WriteLine("Nejvet3i cislo je: " + max);
             Console.WriteLine("Nejmensi cislo je: " + min);
             Console.WriteLine("Soucet vsech cisel je: {0}", znamky.Sum()); // Sum je soucet vsech cisel
+            Console.WriteLine("Prvni cislo je: " + znamky.First());
+            Console.WriteLine("Posledni cislo je: " + znamky.Last());
 
             Console.ReadLine();
         }
