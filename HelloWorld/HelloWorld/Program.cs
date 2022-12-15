@@ -27,6 +27,8 @@ namespace HelloWorld
             Console.WriteLine(firstName);
             Console.WriteLine(isEating);
 
+
+            //for loop and while loop
             double a = 0, b = 1, c;
             Console.WriteLine("Kolik cisel chcete: ");
             c = Convert.ToDouble(Console.ReadLine());
@@ -52,7 +54,7 @@ namespace HelloWorld
             {
                 Console.Write(x + ", ");
                 x++;
-            }while (x != 11);
+            } while (x != 11);
             Console.ReadLine() ;
         }
     }

@@ -1,0 +1,8 @@
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\pole\pole\bin\Debug\pole.exe.config
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\pole\pole\bin\Debug\pole.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\pole\pole\bin\Debug\pole.pdb
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\pole\pole\obj\Debug\pole.csproj.AssemblyReference.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\pole\pole\obj\Debug\pole.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\pole\pole\obj\Debug\pole.csproj.CoreCompileInputs.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\pole\pole\obj\Debug\pole.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\pole\pole\obj\Debug\pole.pdb
