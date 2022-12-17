@@ -28,6 +28,7 @@ namespace HelloWorld
             Console.WriteLine(isEating);
 
 
+
             //for loop and while loop
             double a = 0, b = 1, c;
             Console.WriteLine("Kolik cisel chcete: ");
@@ -56,6 +57,50 @@ namespace HelloWorld
                 x++;
             } while (x != 11);
             Console.ReadLine() ;
+
+            //casting je tam dva typy 
+            //implicit casting 
+            // char -> int -> long -> flat -> double
+
+            int myInt = 78;
+            double myDouble = myInt;  // automaticky int zmeni na double
+            Console.WriteLine(myInt);  // vystup 78
+            Console.WriteLine(myDouble);    // vystup 78
+
+            // explicit casting
+            // double -> float -> long -> int -> char
+            // musi byt rucne dany typ v zavorkach v predu
+            double myDouble2 = 9.5653;
+            int myInt2 = (int)myDouble2;
+            Console.WriteLine(myDouble2);  // vystup je 9.5653
+            Console.WriteLine(myInt2);      // vystup je 9
+
+
+            // type conversion method
+            int myInt3 = 512;
+            double myDouble3= 3.515;
+            bool myBool = true;
+
+            Console.WriteLine(Convert.ToString(myInt3));
+            Console.WriteLine(Convert.ToDouble(myInt3));
+            Console.WriteLine(Convert.ToInt64(myDouble3));
+            Console.WriteLine(Convert.ToString(myBool));
+
+            //user input 
+
+            //type your username add press enter
+            Console.WriteLine("Enter username: ");
+
+            //create a string variable and get user input from the keyboard and store it in the variable
+            string userName = Console.ReadLine();
+
+            //print the value of the variable (userName), which will display the input value
+            Console.WriteLine("Username is: " + userName);
+
+            // If I will need get int information so I must write
+            Console.WriteLine("Enter your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is: " + age);
         }
     }
 }
