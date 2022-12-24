@@ -53,6 +53,35 @@ namespace if_else_switch
                 Console.WriteLine("tuhle operaci neumim");
             }
             //switch
+            Console.WriteLine("Jsem lepsi kalkulacka");
+            Console.WriteLine("zadejte hodnotu a = ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("zadejte hodnotu b = ");
+            int y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("chcete to secist +, odecist -, suocin*, vydelit/");
+            string operatory_2 = Console.ReadLine();
+            switch (operatory_2)
+            {
+                case "+":
+                    int z = x + y;
+                    Console.WriteLine("vysledek je " + z);
+                    break;
+                case "-":
+                    int q = y - x;
+                    Console.WriteLine("vysledek je " + q);
+                    break;
+                case "*":
+                    int w = y * x;
+                    Console.WriteLine("vysledek je " + w);
+                    break;
+                case "/":
+                    int e = y / x;
+                    Console.WriteLine("vysledek je " + e);
+                    break;
+                default:
+                    Console.WriteLine("Tuto operaci neumim");
+                    break;
+            }
             Console.ReadLine();
         }
     }
