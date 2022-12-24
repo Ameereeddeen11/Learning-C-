@@ -1,0 +1,8 @@
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\if_else_switch\if_else_switch\bin\Debug\if_else_switch.exe.config
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\if_else_switch\if_else_switch\bin\Debug\if_else_switch.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\if_else_switch\if_else_switch\bin\Debug\if_else_switch.pdb
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\if_else_switch\if_else_switch\obj\Debug\if_else_switch.csproj.AssemblyReference.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\if_else_switch\if_else_switch\obj\Debug\if_else_switch.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\if_else_switch\if_else_switch\obj\Debug\if_else_switch.csproj.CoreCompileInputs.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\if_else_switch\if_else_switch\obj\Debug\if_else_switch.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\if_else_switch\if_else_switch\obj\Debug\if_else_switch.pdb

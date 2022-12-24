@@ -10,7 +10,7 @@ namespace pole
     {
         static void Main(string[] args)
         {
-            /*int[] pole = new int[10];
+            int[] pole = new int[10];
            pole[0] = 1;
 
            for (int i = 0; i < 10; i++)
@@ -32,7 +32,7 @@ namespace pole
            foreach(string j in jmena) // se k psani pole
            {
                Console.Write("{0} ", j);
-           } */
+           } 
 
             Console.Write("Zadejte kolik chcete zapsat znamek: ");
             int pocet = Convert.ToInt32(Console.ReadLine()); // int32 convertuje na int

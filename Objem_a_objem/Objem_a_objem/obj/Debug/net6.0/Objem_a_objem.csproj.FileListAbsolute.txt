@@ -1,0 +1,15 @@
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\Objem_a_objem.csproj.AssemblyReference.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\Objem_a_objem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\Objem_a_objem.AssemblyInfoInputs.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\Objem_a_objem.AssemblyInfo.cs
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\Objem_a_objem.csproj.CoreCompileInputs.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\bin\Debug\net6.0\Objem_a_objem.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\bin\Debug\net6.0\Objem_a_objem.deps.json
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\bin\Debug\net6.0\Objem_a_objem.runtimeconfig.json
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\bin\Debug\net6.0\Objem_a_objem.dll
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\bin\Debug\net6.0\Objem_a_objem.pdb
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\Objem_a_objem.dll
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\refint\Objem_a_objem.dll
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\Objem_a_objem.pdb
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\Objem_a_objem.genruntimeconfig.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Objem_a_objem\Objem_a_objem\obj\Debug\net6.0\ref\Objem_a_objem.dll
