@@ -1,0 +1,8 @@
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\While_Loop\While_Loop\bin\Debug\While_Loop.exe.config
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\While_Loop\While_Loop\bin\Debug\While_Loop.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\While_Loop\While_Loop\bin\Debug\While_Loop.pdb
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\While_Loop\While_Loop\obj\Debug\While_Loop.csproj.AssemblyReference.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\While_Loop\While_Loop\obj\Debug\While_Loop.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\While_Loop\While_Loop\obj\Debug\While_Loop.csproj.CoreCompileInputs.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\While_Loop\While_Loop\obj\Debug\While_Loop.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\While_Loop\While_Loop\obj\Debug\While_Loop.pdb
