@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,7 @@ namespace While_and_for_loop
     {
         static void Main(string[] args)
         {
-            int i = 0;
+            /*int i = 0;
             while (i < 5)
             {
                 Console.WriteLine(i);
@@ -21,7 +22,7 @@ namespace While_and_for_loop
             int u = 0;
             do
             {
-                Console.Write(u + ", ");
+                Console.WriteLine(u + ", ");
                 u++;
             }
             while (u < 13);
@@ -42,6 +43,55 @@ namespace While_and_for_loop
                 {
                     Console.WriteLine("Inner: " + z);
                 }
+            }*/
+
+            //break used in loop
+            Console.WriteLine("This is break used in for loop");
+            for(int t = 0; t <= 10; ++t)
+            {
+                if(t == 6)
+                {
+                    break;
+                }
+                Console.WriteLine(t);
+            }
+
+            //continue used in loop
+            Console.WriteLine("This is continue used in for loop");
+            for(int c = 0; c <=10; ++c)
+            {
+                if (c == 6)
+                {
+                    continue;
+                }
+                Console.WriteLine(c);
+            }
+
+            //break in while loop 
+            /*Console.WriteLine("This is break used in while");
+            int m = 0;
+            while (m < 10)
+            {
+                if (m == 5)
+                {
+                    break;
+                }
+                Console.WriteLine(m);
+                m++;
+            }*/
+
+            //continue in while loop 
+            Console.WriteLine("This is continue in while loop");
+            int p = 0;
+            while (p < 10)
+            {
+                if (p == 7)
+                {
+                    p++;
+                    continue;
+                }
+                Console.WriteLine(p);
+                p++;
             }
         }
     }
