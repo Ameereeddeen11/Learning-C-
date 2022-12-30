@@ -32,6 +32,12 @@ namespace Methods
             Console.WriteLine("Int: " + myNum_1);
             Console.WriteLine("Double: " + myNum_2);
             MethodArguments(number_1: 132, number_2: 3, number_3: 34);
+            /*int s = 1;
+            for (int i = 1; i <= 10; i++)
+            {
+                s = s * i;
+            }
+            Console.WriteLine(s);*/
         }
 
         static void MyMethod()
