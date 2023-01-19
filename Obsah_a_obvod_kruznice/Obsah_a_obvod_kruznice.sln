@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obsah_a_obvod_kruznice", "Obsah_a_obvod_kruznice.csproj", "{7A57A844-8565-481C-814D-F12B8D497739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A57A844-8565-481C-814D-F12B8D497739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A57A844-8565-481C-814D-F12B8D497739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A57A844-8565-481C-814D-F12B8D497739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A57A844-8565-481C-814D-F12B8D497739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {858BFF0F-6221-4843-8061-890A0E422760}
+	EndGlobalSection
+EndGlobal
