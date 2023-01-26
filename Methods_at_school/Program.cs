@@ -16,6 +16,12 @@ namespace Methods_at_school
             return z;
         }
 
+        static double difference(double x, double y)
+        {
+            double z = x - y;
+            return z;
+        }
+
         static double product(double x, double y)
         {
             double z = x / y;
@@ -49,6 +55,12 @@ namespace Methods_at_school
                     Console.WriteLine("Enter first number: " + sum(a, b));
                     break;
 
+                case "-":
+                    difference(a, b);
+                    Console.WriteLine("difference of numbers is " + difference(a, b));
+                    break;
+
+
                 case "/":
                     product(a, b);
                     Console.WriteLine("podil cisel je " + product(a, b));
@@ -59,6 +71,7 @@ namespace Methods_at_school
                     Console.WriteLine("multiplication is " + multiplication(a, b));
                     break;
             }
+            Console.ReadLine();
         }
     }
 }
