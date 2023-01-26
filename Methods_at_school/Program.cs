@@ -52,7 +52,7 @@ namespace Methods_at_school
             {
                 case "+":
                     sum(a, b);
-                    Console.WriteLine("Enter first number: " + sum(a, b));
+                    Console.WriteLine("Sum of the numbers is " + sum(a, b));
                     break;
 
                 case "-":
@@ -69,6 +69,9 @@ namespace Methods_at_school
                 case "*":
                     multiplication(a, b);
                     Console.WriteLine("multiplication is " + multiplication(a, b));
+                    break;
+                default:
+                    Console.WriteLine("I cann't to calculate");
                     break;
             }
             Console.ReadLine();
