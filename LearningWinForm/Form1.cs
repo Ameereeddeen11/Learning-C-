@@ -56,5 +56,7 @@ namespace LearningWinForm
                 label3.Text = "Odpoved je " + c;
             }
         }
+
+
     }
 }
