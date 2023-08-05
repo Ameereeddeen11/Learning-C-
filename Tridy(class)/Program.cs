@@ -11,14 +11,15 @@ namespace Tridy_class_
         static void Main(string[] args)
         {
             double a, b;
-
+           
             Console.WriteLine("zadejte hodnotu a ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("zadejte kodnotu b ");
             b = Convert.ToDouble(Console.ReadLine());
 
             Soucet myObj= new Soucet(); 
-            Console.WriteLine("hodnota je " + myObj.Plus(a, b));        
+            Console.WriteLine("hodnota je " + myObj.Plus(a, b));
+            Console.ReadLine();
         }
     }
 }
