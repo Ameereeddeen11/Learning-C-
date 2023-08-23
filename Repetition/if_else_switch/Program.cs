@@ -23,6 +23,35 @@
             {
                 Console.WriteLine("Good aftermoon");
             }
+
+            Console.WriteLine("Give me value for a: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Give me value for b: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("which operations do you want to do? ");
+            string opertion = Console.ReadLine();
+            switch (opertion)
+            {
+                case "+":
+                    int c = a + b;
+                    Console.WriteLine(c);
+                    break;
+                case "-":
+                    int c = a - b;
+                    Console.WriteLine(c);
+                    break;
+                case "*":
+                    int c = a * b;
+                    Console.WriteLine(c);
+                    break;
+                case "/":
+                    int c = a / b;
+                    Console.WriteLine(c);
+                    break;
+                default:
+                    Console.WriteLine("I can't calculate");
+                    break;
+            }
             Console.ReadLine();
         }
     }
