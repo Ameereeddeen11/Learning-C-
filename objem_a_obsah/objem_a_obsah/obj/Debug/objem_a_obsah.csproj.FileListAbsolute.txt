@@ -1,0 +1,11 @@
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\bin\Debug\objem_a_obsah.exe.config
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\bin\Debug\objem_a_obsah.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\bin\Debug\objem_a_obsah.pdb
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\obj\Debug\objem_a_obsah.csproj.AssemblyReference.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\obj\Debug\objem_a_obsah.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\obj\Debug\objem_a_obsah.Form1.resources
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\obj\Debug\objem_a_obsah.Properties.Resources.resources
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\obj\Debug\objem_a_obsah.csproj.GenerateResource.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\obj\Debug\objem_a_obsah.csproj.CoreCompileInputs.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\obj\Debug\objem_a_obsah.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\objem_a_obsah\objem_a_obsah\obj\Debug\objem_a_obsah.pdb

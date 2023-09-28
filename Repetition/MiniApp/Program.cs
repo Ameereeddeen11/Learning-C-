@@ -23,24 +23,17 @@ namespace MiniApp
                 }
             }
 
-            Console.WriteLine("Five me some number: ");
-            int num = Convert.ToInt32(Console.ReadLine());
-            if (num == 0)
+            Console.WriteLine("What is your name? ");
+            string name = Console.ReadLine();
+            double price = 30;
+            double result = 0;
+            foreach(char i in name)
             {
-                Console.WriteLine("I can't calculate faktorial");
+                result += price;
             }
-            else
-            {
-                if (num == 0)
-                {
-                    return 1
-                }
-                else
-                {
-                    int result = num * (num - 1);
-                    Console.WriteLine("Faktorial is " + result);
-                }
-            }
+            //return result;
+            Console.WriteLine(result);
+
             Console.ReadLine();
         }
     }

@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\basics"
+    "\\basics",
+    "\\MiniApp"
   ],
-  "SelectedNode": "\\basics\\Program.cs",
+  "SelectedNode": "\\MiniApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

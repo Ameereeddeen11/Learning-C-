@@ -22,7 +22,7 @@ namespace if_else_switch
             //else
             Console.WriteLine("Kolik je hodin je u vas: ");
             int timeZone = Convert.ToInt32(Console.ReadLine());
-            if (timeZone > 12)
+            if (timeZone < 12)
             {
                 Console.Write("Good morning");
             }
@@ -67,16 +67,16 @@ namespace if_else_switch
                     Console.WriteLine("vysledek je " + z);
                     break;
                 case "-":
-                    int q = y - x;
-                    Console.WriteLine("vysledek je " + q);
+                    int z = y - x;
+                    Console.WriteLine("vysledek je " + z);
                     break;
                 case "*":
-                    int w = y * x;
-                    Console.WriteLine("vysledek je " + w);
+                    int z = y * x;
+                    Console.WriteLine("vysledek je " + z);
                     break;
                 case "/":
-                    int e = y / x;
-                    Console.WriteLine("vysledek je " + e);
+                    int z = y / x;
+                    Console.WriteLine("vysledek je " + z);
                     break;
                 default:
                     Console.WriteLine("Tuto operaci neumim");

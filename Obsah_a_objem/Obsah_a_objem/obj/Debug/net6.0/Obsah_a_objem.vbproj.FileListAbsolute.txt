@@ -1,0 +1,15 @@
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\bin\Debug\net6.0\Obsah_a_objem.exe
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\bin\Debug\net6.0\Obsah_a_objem.deps.json
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\bin\Debug\net6.0\Obsah_a_objem.runtimeconfig.json
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\bin\Debug\net6.0\Obsah_a_objem.dll
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\bin\Debug\net6.0\Obsah_a_objem.pdb
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\Obsah_a_objem.vbproj.AssemblyReference.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\Obsah_a_objem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\Obsah_a_objem.AssemblyInfoInputs.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\Obsah_a_objem.AssemblyInfo.vb
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\Obsah_a_objem.vbproj.CoreCompileInputs.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\Obsah_a_objem.dll
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\refint\Obsah_a_objem.dll
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\Obsah_a_objem.pdb
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\Obsah_a_objem.genruntimeconfig.cache
+C:\Users\Amir\Desktop\C#\Learning-C-sharp\Obsah_a_objem\Obsah_a_objem\obj\Debug\net6.0\ref\Obsah_a_objem.dll
