@@ -1,8 +1,0 @@
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Tridy(class)\obj\Debug\Tridy(class).csproj.AssemblyReference.cache
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Tridy(class)\obj\Debug\Tridy(class).csproj.SuggestedBindingRedirects.cache
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Tridy(class)\obj\Debug\Tridy(class).csproj.CoreCompileInputs.cache
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Tridy(class)\bin\Debug\Tridy(class).exe.config
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Tridy(class)\bin\Debug\Tridy(class).exe
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Tridy(class)\bin\Debug\Tridy(class).pdb
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Tridy(class)\obj\Debug\Tridy(class).exe
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Tridy(class)\obj\Debug\Tridy(class).pdb

@@ -1,8 +1,0 @@
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods\Methods\obj\Debug\Methods.csproj.AssemblyReference.cache
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods\Methods\obj\Debug\Methods.csproj.SuggestedBindingRedirects.cache
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods\Methods\bin\Debug\Methods.exe.config
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods\Methods\bin\Debug\Methods.exe
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods\Methods\bin\Debug\Methods.pdb
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods\Methods\obj\Debug\Methods.exe
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods\Methods\obj\Debug\Methods.pdb

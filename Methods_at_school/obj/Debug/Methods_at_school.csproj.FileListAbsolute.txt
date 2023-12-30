@@ -1,8 +1,0 @@
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods_at_school\obj\Debug\Methods_at_school.csproj.AssemblyReference.cache
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods_at_school\obj\Debug\Methods_at_school.csproj.SuggestedBindingRedirects.cache
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods_at_school\obj\Debug\Methods_at_school.csproj.CoreCompileInputs.cache
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods_at_school\bin\Debug\Methods_at_school.exe.config
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods_at_school\bin\Debug\Methods_at_school.exe
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods_at_school\bin\Debug\Methods_at_school.pdb
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods_at_school\obj\Debug\Methods_at_school.exe
-C:\Users\Amir\Desktop\C#\Learning-C-sharp\Methods_at_school\obj\Debug\Methods_at_school.pdb
