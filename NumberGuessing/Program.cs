@@ -7,7 +7,7 @@ namespace NumberGuessing
         {
             bool isResultCorrect = false;
             Random random = new Random();
-            int randomnum = random.Next(1, 10);
+            int randomnum = random.Next(1, 11);
             Console.WriteLine("Hello! Lets play Guessing number game.");
             Console.WriteLine("I think a random number between 1 and 10. You have to guess the number.");
             Console.WriteLine("Please enter any key to start game");
