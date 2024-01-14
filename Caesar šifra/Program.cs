@@ -29,7 +29,7 @@ namespace caesorsifra
                 }
                 else if (odpoved == "2")
                 {
-                    Sifrovani(IsValidText(text), "-"+IsValidPosun(posun));
+                    Desifrovani(IsValidText(text), IsValidPosun(posun));
                 }
                 else
                 {
@@ -84,7 +84,7 @@ namespace caesorsifra
             while(!valid)
             {
                 string posunWithoutSpace = posun.Replace(" ", "");
-                if (!(int.TryParse(posun, out int number)) || posun.Length == 0 || posunWithoutSpace.Length == 0)
+                if ((int.TryParse(posun, out int number) || uint.TryParse(posun, out uint negative)) && posun.Length == 0 && posunWithoutSpace.Length == 0)
                 {
                     Console.WriteLine("nezadali jste posun");
                     Console.WriteLine("zadejte posun:");
@@ -103,11 +103,24 @@ namespace caesorsifra
         static void Sifrovani(string text, string posun)
         {
             string output = "";
-            int posunNumber= Convert.ToInt32(posun);
+            int posunNumber = Convert.ToInt32(posun);
             foreach (char pismeno in text)
             {
                 char baseChar = char.IsUpper(pismeno) ? 'A' : 'a';
-                output = output + (char)(((pismeno + posunNumber - baseChar) % 26 + 26) % 26 + baseChar);
+                output = output + (char)(((pismeno + posunNumber - baseChar) % 36 + 36) % 36 + baseChar);
+            }
+            Console.WriteLine(output);
+        }
+
+        // metoda pro desifrovani
+        static void Desifrovani(string text, string posun)
+        {
+            string output = "";
+            int posunNumber = int.Parse(posun);
+            foreach (char pismeno in text)
+            {
+                char baseChar = char.IsUpper(pismeno) ? 'A' : 'a';
+                output = output + (char)(((pismeno - posunNumber - baseChar) % 36 + 36) % 36 + baseChar);
             }
             Console.WriteLine(output);
         }
