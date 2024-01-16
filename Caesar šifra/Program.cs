@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 namespace caesorsifra
 {
     class Program
@@ -106,8 +107,25 @@ namespace caesorsifra
             int posunNumber = Convert.ToInt32(posun);
             foreach (char pismeno in text)
             {
-                char baseChar = char.IsUpper(pismeno) ? 'A' : 'a';
-                output = output + (char)(((pismeno + posunNumber - baseChar) % 36 + 36) % 36 + baseChar);
+                if (char.IsLetter(pismeno))
+                { 
+                    char baseChar = char.IsUpper(pismeno) ? 'A' : 'a';
+                    output = output + (char)(((pismeno + posunNumber - baseChar) % 36 + 36) % 36 + baseChar);
+                }
+                else if (char.IsDigit(pismeno))
+                {
+                    char baseChar = char.IsDigit(pismeno) ? '0' : '0';
+                    output = output + (char)(((pismeno + posunNumber - baseChar) % 10 + 10) % 10 + baseChar);
+                }
+                else if (char.IsWhiteSpace(pismeno))
+                {
+                    output = output + " ";
+                }
+                /*else if (char.IsSymbol(pismeno))
+                {
+                    char baseChar = char.IsSymbol(pismeno) ? '!' : '!';
+                    output = output + (char)(((pismeno + posunNumber - baseChar) % 10 + 10) % 10 + baseChar);
+                }*/
             }
             Console.WriteLine(output);
         }
@@ -119,8 +137,20 @@ namespace caesorsifra
             int posunNumber = int.Parse(posun);
             foreach (char pismeno in text)
             {
-                char baseChar = char.IsUpper(pismeno) ? 'A' : 'a';
-                output = output + (char)(((pismeno - posunNumber - baseChar) % 36 + 36) % 36 + baseChar);
+                if (char.IsLetter(pismeno))
+                {
+                    char baseChar = char.IsUpper(pismeno) ? 'A' : 'a';
+                    output = output + (char)(((pismeno - posunNumber - baseChar) % 36 + 36) % 36 + baseChar);
+                }
+                else if (char.IsDigit(pismeno))
+                {
+                    char baseChar = char.IsDigit(pismeno) ? '0' : '0';
+                    output = output + (char)(((pismeno - posunNumber - baseChar) % 10 + 10) % 10 + baseChar);
+                }
+                else if (char.IsWhiteSpace(pismeno))
+                {
+                    output = output + " ";
+                }
             }
             Console.WriteLine(output);
         }
