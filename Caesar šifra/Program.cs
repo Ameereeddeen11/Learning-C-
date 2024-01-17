@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel.Design;
 namespace caesorsifra
 {
     class Program
@@ -94,7 +93,6 @@ namespace caesorsifra
                 else
                 {
                     valid = true;
-                    Console.WriteLine("validace probehla uspesne");
                 }
             }
             return posun;
@@ -110,7 +108,7 @@ namespace caesorsifra
                 if (char.IsLetter(pismeno))
                 { 
                     char baseChar = char.IsUpper(pismeno) ? 'A' : 'a';
-                    output = output + (char)(((pismeno + posunNumber - baseChar) % 36 + 36) % 36 + baseChar);
+                    output = output + (char)((pismeno + posunNumber - baseChar) % 36 + baseChar);
                 }
                 else if (char.IsDigit(pismeno))
                 {
@@ -121,11 +119,11 @@ namespace caesorsifra
                 {
                     output = output + " ";
                 }
-                /*else if (char.IsSymbol(pismeno))
+                else if (char.IsSymbol(pismeno))
                 {
                     char baseChar = char.IsSymbol(pismeno) ? '!' : '!';
-                    output = output + (char)(((pismeno + posunNumber - baseChar) % 10 + 10) % 10 + baseChar);
-                }*/
+                    output = output + (char)(((pismeno + posunNumber - baseChar) % 32 + 32) % 32 + baseChar);
+                }
             }
             Console.WriteLine(output);
         }
@@ -140,7 +138,7 @@ namespace caesorsifra
                 if (char.IsLetter(pismeno))
                 {
                     char baseChar = char.IsUpper(pismeno) ? 'A' : 'a';
-                    output = output + (char)(((pismeno - posunNumber - baseChar) % 36 + 36) % 36 + baseChar);
+                    output = output + (char)(((pismeno - posunNumber - baseChar) % 26 + 26) % 26 + baseChar);
                 }
                 else if (char.IsDigit(pismeno))
                 {
