@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace caesorsifra
 {
     class Program
@@ -25,11 +27,11 @@ namespace caesorsifra
                 // urceni zda se jedna o sifrovani nebo desifrovani
                 if (odpoved == "1")
                 {
-                    Sifrovani(IsValidText(text), IsValidPosun(posun));
+                    Sifrace.Sifrovani(Validation.IsValidText(text), Validation.IsValidPosun(posun));
                 }
                 else if (odpoved == "2")
                 {
-                    Desifrovani(IsValidText(text), IsValidPosun(posun));
+                    Sifrace.Desifrovani(Validation.IsValidText(text), Validation.IsValidPosun(posun));
                 }
                 else
                 {
@@ -54,50 +56,11 @@ namespace caesorsifra
                     run = true;
                 }
             }
-        }
+        }        
+    }
 
-        // kontrola zda uzivatel neco zadal
-        static string IsValidText(string text)
-        {
-            bool valid = false;
-            while (!valid)
-            {
-                string textWithoutSpace = text.Replace(" ", "");
-                if (text.Length == 0 || textWithoutSpace.Length == 0)
-                {
-                    Console.WriteLine("nic jste nezadali text");
-                    Console.WriteLine("Zadejte něco?");
-                    text = Console.ReadLine();
-                }
-                else
-                {
-                    valid = true;
-                }
-            }
-            return text;
-        }
-
-        // kontrola zda uzivatel neco posun
-        static string IsValidPosun(string posun)
-        {
-            bool valid = false;
-            while(!valid)
-            {
-                string posunWithoutSpace = posun.Replace(" ", "");
-                if ((int.TryParse(posun, out int number) || uint.TryParse(posun, out uint negative)) && posun.Length == 0 && posunWithoutSpace.Length == 0)
-                {
-                    Console.WriteLine("nezadali jste posun");
-                    Console.WriteLine("zadejte posun:");
-                    posun = Console.ReadLine();
-                }
-                else
-                {
-                    valid = true;
-                }
-            }
-            return posun;
-        }
-
+    /*class Sifrovani
+    {
         // metodan pro sifrovani a desifrovani
         static void Sifrovani(string text, string posun)
         {
@@ -106,9 +69,9 @@ namespace caesorsifra
             foreach (char pismeno in text)
             {
                 if (char.IsLetter(pismeno))
-                { 
+                {
                     char baseChar = char.IsUpper(pismeno) ? 'A' : 'a';
-                    output = output + (char)((pismeno + posunNumber - baseChar) % 36 + baseChar);
+                    output = output + (char)(((pismeno + posunNumber - baseChar) % 26 + 26) % 26 + baseChar);
                 }
                 else if (char.IsDigit(pismeno))
                 {
@@ -118,11 +81,6 @@ namespace caesorsifra
                 else if (char.IsWhiteSpace(pismeno))
                 {
                     output = output + " ";
-                }
-                else if (char.IsSymbol(pismeno))
-                {
-                    char baseChar = char.IsSymbol(pismeno) ? '!' : '!';
-                    output = output + (char)(((pismeno + posunNumber - baseChar) % 32 + 32) % 32 + baseChar);
                 }
             }
             Console.WriteLine(output);
@@ -153,4 +111,51 @@ namespace caesorsifra
             Console.WriteLine(output);
         }
     }
+
+    class Validace
+    {
+        // kontrola zda uzivatel neco zadal
+        static string IsValidText(string text)
+        {
+            bool valid = false;
+            while (!valid)
+            {
+                string textWithoutSpace = text.Replace(" ", "");
+                if (text.Length == 0 || textWithoutSpace.Length == 0)
+                {
+                    Console.WriteLine("nic jste nezadali text");
+                    Console.WriteLine("Zadejte něco?");
+                    text = Console.ReadLine();
+                }
+                else
+                {
+                    valid = true;
+                }
+            }
+            return text;
+        }
+
+        // kontrola zda uzivatel neco posun
+        static string IsValidPosun(string posun)
+        {
+            int b;
+            bool valid = false;
+            while (!valid)
+            {
+                bool res = int.TryParse(posun, out int result);
+                string posunWithoutSpace = posun.Replace(" ", "");
+                if (posunWithoutSpace.Length == 0 && res == false)
+                {
+                    Console.WriteLine("nezadali jste posun");
+                    Console.WriteLine("zadejte posun:");
+                    posun = Console.ReadLine();
+                }
+                else
+                {
+                    valid = true;
+                }
+            }
+            return posun;
+        }
+    }*/
 }
