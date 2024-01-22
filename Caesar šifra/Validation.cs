@@ -7,61 +7,58 @@ namespace caesorsifra
         // kontrola zda uzivatel neco zadal
         public static string IsValidText(string text)
         {
-            bool valid = false;
-            while (!valid)
+            bool valid = false;  // nastaveni promene
+            while (!valid)  // dokud neni validni
             {
-                string textWithoutSpace = text.Replace(" ", "");
-                if (text.Length == 0 || textWithoutSpace.Length == 0)
+                string textWithoutSpace = text.Replace(" ", "");  // odstraneni mezer
+                if (text.Length == 0 || textWithoutSpace.Length == 0)  // kontrola zda je text prazdny
                 {
                     Console.WriteLine("nic jste nezadali text");
                     Console.WriteLine("Zadejte něco?");
-                    text = Console.ReadLine();
+                    text = Console.ReadLine();  // cteni textu
                 }
                 else
                 {
-                    valid = true;
+                    valid = true;  // nastaveni validni
                 }
             }
-            return text;
+            return text;  // vraceni textu
         }
 
         // kontrola zda uzivatel neco posun
         public static string IsValidPosun(string posun)
         {
-            bool valid = false;
-            bool valid2 = false;
-            while (!valid2)
+            bool valid = false;  // nastaveni promene
+            bool valid2 = false;  // nastaveni promene
+            while (!valid2)  // dokud neni validni
             {
-                foreach (char pismeno in posun)
+                try
                 {
-                    if (char.IsLetter(pismeno))
-                    {
-                        Console.WriteLine("posun nemuze byt pismeno");
-                        Console.WriteLine("zadejte posun:");
-                        posun = Console.ReadLine();
-                    }
-                    else
-                    {
-                        valid2 = true;
-                    }
+                    int b = int.Parse(posun);  // prevedeni posunu na cislo
+                    valid2 = true;  // nastaveni validni
+                }
+                catch (Exception)  // pokud se nepodari prevest na cislo
+                {
+                    Console.WriteLine("posun nemuze byt pismeno");
+                    Console.WriteLine("zadejte posun:");
+                    posun = Console.ReadLine();  // cteni posunu
                 }
             }
-            while (!valid)
+            while (!valid)  // dokud neni validni
             {
-                //bool res = int.TryParse(posun, out int result);
-                string posunWithoutSpace = posun.Replace(" ", "");
-                if (posunWithoutSpace.Length == 0)
+                string posunWithoutSpace = posun.Replace(" ", "");  // odstraneni mezer
+                if (posunWithoutSpace.Length == 0)  // kontrola zda je posun prazdny
                 {
                     Console.WriteLine("nezadali jste posun");
                     Console.WriteLine("zadejte posun:");
-                    posun = Console.ReadLine();
+                    posun = Console.ReadLine();  // cteni posunu
                 }
                 else
                 {
-                    valid = true;
+                    valid = true;  // nastaveni validni
                 }
             }
-            return posun;
+            return posun;  // vraceni posunu
         }
     }
 }
