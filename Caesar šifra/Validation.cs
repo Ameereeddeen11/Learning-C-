@@ -23,9 +23,9 @@ namespace caesorsifra
                 {
                     valid = true;  // nastaveni validni
                 }
-                foreach (char pismeno in text)  // kontrola zda je pismeno nebo cislo
+                foreach (char pismeno in text)  // kontrola zda je pismeno nebo 
                 {
-                    if (!abc.Contains(pismeno) && !abc.ToUpper().Contains(pismeno) && !numbers.Contains(pismeno))  // kontrola zda je pismeno
+                    if (!(abc.Contains(pismeno) || abc.ToUpper().Contains(pismeno) || numbers.Contains(pismeno)))  // kontrola zda je pismeno
                     {
                         Console.WriteLine("text nemuze obsahovat speciální znaky");
                         Console.WriteLine("Zadejte něco?");
