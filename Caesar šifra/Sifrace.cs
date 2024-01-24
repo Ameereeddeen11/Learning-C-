@@ -18,8 +18,7 @@ namespace caesorsifra
                 }
                 else if (char.IsDigit(pismeno))  // kontrola zda je cislo
                 {
-                    char baseChar = char.IsDigit(pismeno) ? '0' : '0'; 
-                    output = output + (char)(((pismeno + posunNumber - baseChar) % 10 + 10) % 10 + baseChar);  // sifrovani
+                    output = output + (char)(((pismeno + posunNumber - '0') % 10 + 10) % 10 + '0');  // sifrovani
                 }
                 else if (char.IsWhiteSpace(pismeno))  // kontrola zda je mezera
                 {
@@ -43,8 +42,7 @@ namespace caesorsifra
                     }
                     else if (char.IsDigit(pismeno)) // kontrola zda je cislo
                     {
-                        char baseChar = char.IsDigit(pismeno) ? '0' : '0';  // urceni jestli pismeno je velka nebo mala
-                        output = output + (char)(((pismeno - posunNumber - baseChar) % 10 + 10) % 10 + baseChar);  // desifrovani
+                        output = output + (char)(((pismeno - posunNumber - '0') % 10 + 10) % 10 + '0');  // desifrovani
                     }
                     else if (char.IsWhiteSpace(pismeno))  // kontrola zda je mezera
                     {

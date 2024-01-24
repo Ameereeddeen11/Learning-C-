@@ -8,6 +8,8 @@ namespace caesorsifra
         public static string IsValidText(string text)
         {
             bool valid = false;  // nastaveni promene
+            string abc = "abcdefghijklmnopqrstuvwxyz";  // abeceda
+            string numbers = "0123456789";  // cisla
             while (!valid)  // dokud neni validni
             {
                 string textWithoutSpace = text.Replace(" ", "");  // odstraneni mezer
@@ -20,6 +22,17 @@ namespace caesorsifra
                 else
                 {
                     valid = true;  // nastaveni validni
+                }
+                foreach (char pismeno in text)  // kontrola zda je pismeno nebo cislo
+                {
+                    if (!abc.Contains(pismeno) && !abc.ToUpper().Contains(pismeno) && !numbers.Contains(pismeno))  // kontrola zda je pismeno
+                    {
+                        Console.WriteLine("text nemuze obsahovat speciální znaky");
+                        Console.WriteLine("Zadejte něco?");
+                        text = Console.ReadLine();  // cteni textu
+                        valid = false;  // nastaveni validni
+                        break;  // ukonceni cyklu
+                    }
                 }
             }
             return text;  // vraceni textu
