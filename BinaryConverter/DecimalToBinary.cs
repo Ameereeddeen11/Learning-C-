@@ -7,5 +7,9 @@ namespace BinaryConverter
         {
             Console.WriteLine("This is convert from Decimal to Binary");
         }
+        public void ConvertBinaryToDecimal()
+        {
+            Console.WriteLine("This is convert from Binary to Decimal");
+        }
     }
 }

@@ -15,10 +15,27 @@ namespace BinaryCoverter
             Console.WriteLine("6. Octal to Decimal");
             int choice = Convert.ToInt32(Console.ReadLine());
             DecimalToBinary decimalToBinary = new DecimalToBinary();
+            DecimalToOctal decimalToOctal = new DecimalToOctal();
+            DecimalToHexadecimal decimalToHexadecimal = new DecimalToHexadecimal();
             switch (choice)
             {
                 case 1:
                     decimalToBinary.ConvertDecimalToBinary();
+                    break;
+                case 2:
+                    decimalToBinary.ConvertBinaryToDecimal();
+                    break;
+                case 3:
+                    decimalToHexadecimal.ConvertDecimalToHexadecimal();
+                    break;
+                case 4:
+                    decimalToHexadecimal.ConvertHexadecimalToDecimal();
+                    break;
+                case 5:
+                    decimalToOctal.ConvertDecimalToOctal();
+                    break;
+                case 6:
+                    decimalToOctal.ConvertOctalToDecimal();
                     break;
             }
         }
