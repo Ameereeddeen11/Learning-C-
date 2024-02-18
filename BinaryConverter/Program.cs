@@ -13,17 +13,20 @@ namespace BinaryCoverter
             Console.WriteLine("4. Hexadecimal to Decimal");
             Console.WriteLine("5. Decimal to Octal");
             Console.WriteLine("6. Octal to Decimal");
-            int choice = Convert.ToInt32(Console.ReadLine());
+            int choice = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Enter number:");
+            string input = Console.ReadLine();
+            int number = Convert.ToInt32(input);
             DecimalToBinary decimalToBinary = new DecimalToBinary();
             DecimalToOctal decimalToOctal = new DecimalToOctal();
             DecimalToHexadecimal decimalToHexadecimal = new DecimalToHexadecimal();
             switch (choice)
             {
                 case 1:
-                    decimalToBinary.ConvertDecimalToBinary();
+                    decimalToBinary.ConvertDecimalToBinary(number);
                     break;
                 case 2:
-                    decimalToBinary.ConvertBinaryToDecimal();
+                    decimalToBinary.ConvertBinaryToDecimal(input);
                     break;
                 case 3:
                     decimalToHexadecimal.ConvertDecimalToHexadecimal();
