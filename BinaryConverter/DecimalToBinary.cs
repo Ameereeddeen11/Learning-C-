@@ -17,20 +17,11 @@ namespace BinaryConverter
         }
         public void ConvertBinaryToDecimal(string input)
         {
-            //Console.WriteLine("This is convert from Binary to Decimal");
             int decamal = 0;
-            int lenght = input.Length;
-            char[] charArray = input.ToCharArray();
-            Array.Reverse(charArray);
-            string result = new string(charArray);
-            foreach (char bit in result)
+            for (int i = 0; i < input.Length; i++)
             {
-                if (bit == '1')
-                {
-                    int index = input.IndexOf(bit); 
-                    int power = lenght - (index + 1);
-                    decamal += (int)Math.Pow(2, index);
-                }
+                int index = input.Length - i - 1;
+                decamal += (int)Char.GetNumericValue(input[i]) * (int)Math.Pow(2, index);
             }
             Console.WriteLine(decamal);
         }
